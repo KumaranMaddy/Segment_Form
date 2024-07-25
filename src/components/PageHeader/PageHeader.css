@@ -1,0 +1,32 @@
+.page-header-container{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    padding: 0px 40px;
+    background-color: #39afbd;
+
+  
+}
+.popup-header-container{
+    display: flex;
+    align-items: center;
+    height: 72px;
+    padding: 20px;
+    background-color: #39afbd;
+
+    @media only screen and (max-width: 640px) {
+        padding: 20px;
+	}
+}
+i{
+    margin-right: 20px;
+    color: #ffffff;
+    cursor: pointer;
+   
+}
+.page-header-text{
+    font-size: 20px;
+    font-weight: 600;
+    color: #ffffff;
+   
+}
